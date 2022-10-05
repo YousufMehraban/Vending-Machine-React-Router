@@ -12,12 +12,12 @@ function App() {
   return (
     <div className='App-header'>
       <BrowserRouter>
-          {/* <nav className='NavLinks'>
+          <nav className='NavLinks'>
             <NavLink exact to="/">Vending Machine</NavLink>
             <NavLink exact to="/drink">Drink</NavLink>
             <NavLink exact to="/eat">Eat</NavLink>
             <NavLink exact to="/sardine">Sardine</NavLink>
-          </nav> */}
+          </nav>
           <Switch>
             <Route exact path="/drink"> <Drink/> </Route>
             <Route exact path="/eat"> <Eat/> </Route>

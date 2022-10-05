@@ -8,8 +8,8 @@ const Eat = () =>{
         <div>
             <h3> Yummy yummy in my tummy!!!</h3>
             <div className="wrapper">
-                <img src={eatImage} width="400px" height="400px" />
-                <Link exact to='/' >Back</Link>
+                <img src={eatImage} width="400px" height="500px" />
+                <Link exact to='/' >Mainpage</Link>
             </div>
         </div>
     )

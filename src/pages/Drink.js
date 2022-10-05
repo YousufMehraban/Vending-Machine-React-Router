@@ -8,8 +8,8 @@ const Drink = () =>{
         <div>
             <h3> So MUSH SUGARRR! NO NO NO!!!</h3>
             <div className="wrapper">
-                <img src={drinkImage} width="400px" height="400px" />
-                <Link exact to='/' >Back</Link>
+                <img src={drinkImage} width="400px" height="500px" />
+                <Link exact to='/' >Mainpage</Link>
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ const VendingMachine = () =>{
     return(
         <>
         <div className="vending-wrapper">
-                <h1>I'm a Vending Machine</h1>
+                <h1>Hey! I'm a Vending Machine</h1>
                 <h3>tell me what do you want!!!!!!</h3>
             <div className="wrapper">
                 <div className="image-wrapper">
@@ -19,8 +19,8 @@ const VendingMachine = () =>{
                 </div>
                 <div className="link-wrapper"> 
                         <Link exact to='/eat' >Chips</Link> 
-                        <Link exact to='/drink' >Drink</Link> 
-                        <Link exact to='/sardine' >Sardine</Link> 
+                        <Link exact to='/drink' >Drinks</Link> 
+                        <Link exact to='/sardine' >Sardines</Link> 
                 </div>
             </div>
         </div>

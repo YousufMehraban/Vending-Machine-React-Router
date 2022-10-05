@@ -8,8 +8,8 @@ const Sardine = () =>{
         <div>
             <h3> You don't eat the sardines. The sardines, they eat you!!!</h3>
             <div className="wrapper">
-                <img src={sardineImage} width="800px" height="400px" />
-                <Link exact to='/' >Back</Link>
+                <img src={sardineImage} width="700px" height="500px" />
+                <Link exact to='/' >Mainpage</Link>
             </div>
 
         </div>
