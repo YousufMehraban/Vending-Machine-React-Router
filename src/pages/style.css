@@ -1,0 +1,17 @@
+.vending-wrapper > *{
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+a{
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+}
